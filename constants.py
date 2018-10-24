@@ -5,24 +5,26 @@ import numpy as np
 ## required constants ##
 ########################
 
-# length unit: micrometres
+## length unit: micrometres
 
 # Avogadro's number
-Na = 6.02e23
+Na = 6.022e23
 
 # area per lipid um^2
 a = 0.627e-6 # N. Kucerka et al. / Biochimica et Biophysica Acta 1808 (2011) 2761–2771 
 
-# half the thickness of bilayer, in micrometres
-# (half the steric bilayer thickness; huber 2002, leftin 2014)
-l = 5e-3/2
+# half the thickness of bilayer, in micrometres (half the steric bilayer thickness)
+# Leftin A, Molugu TR, Job C, Beyer K, Brown MF. Biophysical Journal 107(10):2274–86 (2014) 
+# Huber T, Rajamoorthi K, Kurze VF, Beyer K, Brown MF. J Am Chem Soc. 124(2):298–309 (2002) 
 
-# centre-to-centre separation between bilayers
+l = 5e-3/2 #in micrometres
+
+# default centre-to-centre separation between bilayers
 s = 4*l
 
 # lipid index: wavelength-dependent refractive index of egg PC
 # eq 10 from B.N Khlebtsov, L.A Kovler, V.A Bogatyrev, N.G Khlebtsov, S.Yu Shchyogolev,
-# JQSRT, Volumes 79–80, 825-838, (2003)
+# JQSRT, 79–80, 825-838, (2003)
 def li(wl):
     return 1.4713+1.31/(wl*1e3)+4309/(wl*1e3)**2
 
