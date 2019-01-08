@@ -1,12 +1,13 @@
 # vesicle-turbidity
 ### A. Wang
 ### awang@molbio.mgh.harvard.edu
+### anna.wang@unsw.edu.au
 
 This code is for calculating the turbidity of a sample of vesicles. This turbidity is the
 optical depth of the sample, and is related to the 'absorbance' as measured on a 
 spectrophotometer. For further details, please see the related paper
 
-Wang, Chan Miller, Szostak, <journal>, 2018
+Wang, Chan Miller, and Szostak, Biophysical Journal, 2019
 
 How to use this code:
 The relevant constants are located in 'constants.py', and the functions are in 'turbidity.py'.
