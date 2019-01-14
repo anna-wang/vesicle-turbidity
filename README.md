@@ -8,6 +8,7 @@ optical depth of the sample, and is related to the 'absorbance' as measured on a
 spectrophotometer. For further details, please see the related paper
 
 Wang, Chan Miller, and Szostak, Biophysical Journal, 2019
+https://www.sciencedirect.com/science/article/pii/S0006349519300220
 
 How to use this code:
 The relevant constants are located in 'constants.py', and the functions are in 'turbidity.py'.
