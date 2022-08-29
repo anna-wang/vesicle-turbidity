@@ -1,6 +1,5 @@
 # vesicle-turbidity
 ### A. Wang
-### awang@molbio.mgh.harvard.edu
 ### anna.wang@unsw.edu.au
 
 This code is for calculating the turbidity of a sample of vesicles. This turbidity is the
